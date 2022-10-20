@@ -3,7 +3,10 @@ node_modules
 build
 npm-debug.log
 .nyc
-.env
+*.env
 .DS_Store
 db
 
+
+# Exclude user upload files from backend server
+backend/public/images
